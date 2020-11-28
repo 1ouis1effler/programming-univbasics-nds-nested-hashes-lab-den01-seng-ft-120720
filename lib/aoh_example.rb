@@ -20,9 +20,10 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
-    literal_aoh[2][:name]
+    literal_aoh[2][]
 end
 
 def aoh_update(aoh, row, key, new_value)
-  literal_aoh[1][:name] = "new_value"
+  # Update the AoH data at row and key to have the value of new_value
+  # Return the updated AoH
 end
