@@ -21,6 +21,7 @@ end
 
 def aoh_lookup(aoh, row, key)
     literal_aoh[2][:name]
+    binding.pry 
 end
 
 def aoh_update(aoh, row, key, new_value)
