@@ -21,8 +21,6 @@ end
 
 def aoh_lookup(aoh, row, key)
     aoh[row][key]
-    variable_name = "shark"
-    binding.pry
 end
 
 def aoh_update(aoh, row, key, new_value)
